@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Bowlby One SC';
+    text-align: center;
+    background: -webkit-linear-gradient(#D5E4BB, #ffffff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    font-size: 90px;
+}
+
+body {
+    background-image: url('./IMG_1211.JPG');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #D5E4BB;
+  }

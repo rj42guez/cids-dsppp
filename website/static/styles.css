@@ -1,0 +1,70 @@
+body {
+    background-color: #a3c368;
+}
+
+h1 {
+    font-family: 'Bowlby One SC';
+    text-align: center;
+    background: -webkit-linear-gradient(#D5E4BB, #ffffff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    font-size: 90px;
+}
+
+h2 {
+    font-family: 'Bowlby One SC';
+    text-align: center;
+    background: -webkit-linear-gradient(#D5E4BB, #ffffff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+h4 {
+    font-family: 'Verdana';
+    padding-left: 40;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 900;
+    top: 0;
+    width: 100%;   
+  }
+
+#navbarSupportedContent {
+    list-style-type: none;
+    top: 0;
+    width: max-content;
+    padding: 0px 100px;
+}
+
+#navbarSupportedContent.scrolled {
+  
+  background-color: #a3c368;
+} 
+
+li {
+    padding: 25px 10px;
+}
+
+li a {
+    padding: 34px 200px;
+    color: #000000
+}
+
+li a:hover:not(.active) {
+    color: #ffffff;
+  }
+  
+li a.active {
+    color: white;
+    background-color: #3c7963;
+  }
+
+
