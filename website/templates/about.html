@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block head %}
+      <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+{% endblock %}
+
+{% block content %}
+<h2>About</h2>
+
+<h4>Rationale</h4>
+<p>
+Data science can help understand some of the country's most vexing problems in the public sector, especially when
+information is available. Nearly all aspects of governance operate using complex systems made up of networks of
+interrelated, interdependent, and multicontextual factors. The most innovative tools of data science and analytics 
+have opened up new possibilities for empirical examination of social problems best studied within the complex 
+systems framework.
+</p>
+<p>
+As such, the Program on Data Science for Public Policy was established as a a series of research projects and
+interconstituent unit (CU) research engagement activities for various agendas of national public policy. It generally
+seeks to build capacity and craft research agenda toward applied data science analytics through complex systems
+frameworks.
+</p>
+<br>
+
+<h4>Objectives</h4>
+<p>
+DSPP has three objectives:
+</p>
+<p class="obj">    
+First, it aims to build the capacity of UP faculty in data science and apply this learned skill to public policy and
+governance.
+</p>
+<p class="obj">
+Second, it seeks to engage a community of researchers within the university and encourage the pursuit of
+interdisciplinary problem-oriented research using high-level quantitative analyses.
+</p>
+<p class="obj">
+Finally, it strives to convene multidisciplinary teams of social scientists, humanists, and scientists to research
+issues in the public sector.
+</p>
+<img src="{{ url_for('static', filename='objectiveTree.png') }}" id="objtree" alt="objectives" title="objectives"/>
+<br>
+
+{% endblock %}
