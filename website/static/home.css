@@ -7,6 +7,6 @@ h1 {
     font-size: 90px;
 }
 
-.cover {
-    width: 10%;
+body {
+    background-image: url(/website/static/cover_rworkshop.png);
 }
