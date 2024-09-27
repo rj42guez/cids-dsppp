@@ -7,7 +7,7 @@ h1 {
     font-size: 90px;
 }
 
-body {
+.home {
     background-image: url('./IMG_1242.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
