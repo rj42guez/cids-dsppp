@@ -1,6 +1,5 @@
 body {
     background-color: #a3c368;
-    padding-left: 10px;
 }
 
 h1 {
@@ -12,6 +11,10 @@ h1 {
     font-size: 90px;
 }
 
+p {
+    padding: 0px 80px;
+}
+
 h2 {
     font-family: 'Bowlby One SC';
     text-align: center;
@@ -19,6 +22,7 @@ h2 {
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
     font-size: 50px;
+    padding: 0px 80px;
 }
 
 h4 {
@@ -27,6 +31,7 @@ h4 {
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
+    padding: 0px 80px;
 }
 
 ul {

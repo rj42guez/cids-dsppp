@@ -8,5 +8,7 @@ h1 {
 }
 
 body {
-    background-image: url('cover_rworkshop.png')
+    background-image: url('cover_rworkshop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
