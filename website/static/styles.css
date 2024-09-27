@@ -58,13 +58,12 @@ li a {
     color: #000000
 }
 
-li a:hover:not(.active) {
+li a:hover {
     color: #ffffff;
   }
   
 li a.active {
     color: white;
-    background-color: #3c7963;
   }
 
 
