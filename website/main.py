@@ -23,5 +23,9 @@ def members():
 def publicpolicypresentations():
     return render_template("public-policy-presentations.html")
 
+@app.route('/videos')
+def publicpolicypresentations():
+    return render_template("videos.html")
+
 if __name__ == '__main__':
     app.run(debug=True)
