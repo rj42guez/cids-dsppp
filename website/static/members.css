@@ -21,6 +21,8 @@ div {
       background-color:#D5E4BB;
       padding: 30px;
       width: 400px;
+      margin-right: 20px;
+      margin-left: 20px;
       margin-top: 60px;
     }
     /* On mouse-over, add a deeper shadow */
