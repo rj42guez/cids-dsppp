@@ -34,7 +34,12 @@ div {
     .info > p {
       padding: 0px 0px;
       font-size: 15px;
+      font-weight: bold;
     }
   
+    #info-secondary {
+      font-size: 10px;
+      font-style: italic;
+    }
   
   
