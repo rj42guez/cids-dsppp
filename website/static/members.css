@@ -19,10 +19,8 @@ div {
     
     .cards > .card {
       background-color:#D5E4BB;
-      padding: 20px;
+      padding: 30px;
       width: 400px;
-      margin-right: 20px;
-      margin-left: 20px;
       margin-top: 60px;
     }
     /* On mouse-over, add a deeper shadow */
@@ -41,7 +39,7 @@ div {
     }
   
     #info-secondary {
-      font-size: 11px;
+      font-size: 12px;
       font-style: italic;
     }
   
