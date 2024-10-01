@@ -18,11 +18,11 @@
     
     .cards > .card {
       background-color:#D5E4BB;
-      padding: 30px;
-      width: 400px;
-      margin-right: 20px;
-      margin-left: 20px;
-      margin-top: 60px;
+      padding: 0px;
+      width: 170px;
+      margin-right: 2px;
+      margin-left: 2px;
+      margin-top: 10px;
     }
     /* On mouse-over, add a deeper shadow */
     .card:hover {
@@ -32,7 +32,7 @@
     /* Add some padding inside the card container */
     .info > p {
       padding: 0px 0px;
-      font-size: 15px;
+      font-size: 12px;
     }
 
     #info-primary {
@@ -40,7 +40,7 @@
     }
   
     #info-secondary {
-      font-size: 13px;
+      font-size: 10px;
       font-style: italic;
     }
   
