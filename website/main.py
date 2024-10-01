@@ -7,25 +7,29 @@ app = Flask(__name__, template_folder='templates')
 def home():
     return render_template("index.html")
 
-@app.route('/about')
+@app.route('/dsppp-at-a-glance')
 def about():
     return render_template("about.html")
 
-@app.route('/programs')
+@app.route('/events')
 def programs():
     return render_template("programs.html")
 
-@app.route('/members')
+@app.route('/community')
 def members():
     return render_template("members.html")
 
-@app.route('/public-policy-presentations')
+@app.route('/research-corner')
 def publicpolicypresentations():
     return render_template("public-policy-presentations.html")
 
-@app.route('/videos')
+@app.route('/proceedings')
 def videos():
     return render_template("videos.html")
+
+@app.route('/chat-with-us')
+def contact():
+    return render_template("chat-with-us.html")
 
 if __name__ == '__main__':
     app.run(debug=True)
