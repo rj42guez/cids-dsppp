@@ -14,7 +14,7 @@ div {
       text-align: center;
       display: flex;
       flex-wrap: wrap;
-      padding: 0px 88px;
+      padding: 0px 60px;
     }
     
     .cards > .card {
