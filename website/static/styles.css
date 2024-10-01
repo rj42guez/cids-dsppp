@@ -32,7 +32,7 @@ h2 {
 
 h4 {
     font-family: 'Verdana';
-    padding-left: 40;
+    padding-left: 80px;
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
@@ -51,9 +51,11 @@ ul {
 #navbarMain {
     list-style-type: none;
     top: 0;
-    width: max-content;
-    padding:50px 100px;
+    padding: 15px 100px;
     position: fixed;
+    z-index: 1000;
+    transition: background-color 0.2s ease;
+    width:100%; 
 }
 
 #navbarMain.scrolled {
@@ -63,20 +65,21 @@ ul {
 } 
 
 
-li {
+#navbarMain li {
     padding: 25px 10px;
 }
 
-li a {
-    padding: 34px 100px;
+#navbarMain li a {
+    padding: 0px 10px;
+    display: block;
     color: #000000
 }
 
-li a:hover {
+#navbarMain li a:hover {
     color: #ffffff;
   }
   
-li a.active {
+#navbarMain li a:active {
     color: white;
   }
 
