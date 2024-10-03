@@ -8,11 +8,12 @@ h1 {
     background: -webkit-linear-gradient(#D5E4BB, #ffffff);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-    font-size: 140px;
+    font-size: 100px;
 }
 
 p {
     padding: 0px 80px;
+    font-size: 15px;
 }
 
 .content{
@@ -26,7 +27,7 @@ h2 {
     background: -webkit-linear-gradient(#D5E4BB, #ffffff);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-    font-size: 90px;
+    font-size: 40px;
     padding: 0px 80px;
 }
 
@@ -34,9 +35,9 @@ h4 {
     font-family: 'Verdana';
     padding-left: 80px;
     color: #ffffff;
-    font-size: 40px;
     font-weight: bold;
     padding: 0px 80px;
+    font-size: 25px;
 }
 
 ul {
@@ -52,15 +53,19 @@ ul {
 #navbarMain {
     list-style-type: none;
     top: 0;
-    padding: 20px 100px;
+    padding: 10px 100px;
     position: fixed;
     z-index: 1000;
     transition: background-color 0.2s ease;
     width:100%; 
-    font-size: 30px;
+    font-size: 15px;
 }
 
 #mobileNavbar {
+    display: none;
+}
+
+#mobileMenu {
     display: none;
 }
 
@@ -76,7 +81,7 @@ ul {
 }
 
 #navbarMain li a {
-    padding: 0px 40px;
+    padding: 0px 20px;
     display: block;
     color: #000000
 }
@@ -95,6 +100,10 @@ ul {
 
     #icon {
         size: 100px;
+    }
+
+    #mobileMenu {
+        display: block;
     }
     
     h1 {
@@ -159,15 +168,6 @@ ul {
         right: 45px;
         font-size: 60px;
       }
-      
-      
+  
     }
     
-@media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
-}

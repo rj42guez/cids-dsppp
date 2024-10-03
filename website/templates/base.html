@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto" id="links">
                     <a class="nav-link" href="/">
-                        <img src="{{ url_for('static', filename='logo_DSPPP.png') }}" id="home" class="rounded" alt="/" width="150" height="150" /> 
+                        <img src="{{ url_for('static', filename='logo_DSPPP.png') }}" id="home" class="rounded" alt="/" width="78" height="75" /> 
                     </a>  
                     <li class="nav-item">
                         <a class="nav-link" href="dsppp-at-a-glance">DSPPP at a Glance</a>
@@ -61,12 +61,12 @@
               <a href="chat-with-us">Chat With Us</a>
             </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="mobileNavbar()">
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
               <i class="fa fa-bars"></i>
             </a>
         </div>
         
-        <span onclick="openNav()">&#9776;</span>
+        <span onclick=openNav() id="mobileMenu">&#9776;</span>
         <div class="content">
             {% block content %} {% endblock %}
         </div>
