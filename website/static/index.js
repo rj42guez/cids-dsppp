@@ -17,9 +17,9 @@ function mobileNavbar() {
     }
   } 
   function openNav() {
-    document.getElementById("#mobileNavbar").style.width = "100%";
+    document.getElementById("mobileNavbar").style.width = "100%";
   }
   
   function closeNav() {
-    document.getElementById("#mobileNavbar").style.width = "0%";
+    document.getElementById("mobileNavbar").style.width = "0%";
   }
