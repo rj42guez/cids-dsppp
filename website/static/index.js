@@ -16,10 +16,20 @@ function mobileNavbar() {
       x.style.display = "block";
     }
   } 
-  function openNav() {
+
+function openNav() {
     document.getElementById("mobileNavbar").style.width = "100%";
   }
   
-  function closeNav() {
+function closeNav() {
     document.getElementById("mobileNavbar").style.width = "0%";
+  }
+
+function loadFunc() {
+    myVar = setTimeout(showPage, 3000);
+  } 
+  
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("div1").style.display = "block";
   }
