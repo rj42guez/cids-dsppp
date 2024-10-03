@@ -104,9 +104,6 @@ ul {
         size: 100px;
     }
 
-    #mobileMenu {
-        display: block;
-    }
     
     h1 {
         font-family: 'Bowlby One SC';
@@ -170,6 +167,15 @@ ul {
         right: 45px;
         font-size: 60px;
       }
-  
+    
+@media screen and (max-height: 450px) 
+{
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+        }
     }
+}
     
