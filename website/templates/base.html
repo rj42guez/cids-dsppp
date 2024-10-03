@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto" id="links">
                     <a class="nav-link" href="/">
-                        <img src="{{ url_for('static', filename='logo_DSPPP.png') }}" id="home" class="rounded" alt="/" width="78" height="75" /> 
+                        <img src="{{ url_for('static', filename='logo_DSPPP.png') }}" id="home" class="rounded" alt="/" width="150" height="150" /> 
                     </a>  
                     <li class="nav-item">
                         <a class="nav-link" href="dsppp-at-a-glance">DSPPP at a Glance</a>
@@ -47,28 +47,33 @@
                 </ul>
             </div>
         </nav>
+        <div id="mobileNavbar" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="dsppp-at-a-glance">DSPPP at a Glance</a>
+              <a href="research-corner">Research Corner</a>
+              <a href="community">Data Science Community</a>
+              <a href="events">Events</a>
+              <a href="proceedings">Proceedings</a>
+              <a href="chat-with-us">Chat With Us</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="mobileNavbar()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        
+        <span onclick="openNav()">open</span>
         <div class="content">
             {% block content %} {% endblock %}
         </div>
         <script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"
-        ></script>
-        <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"
-        ></script>
-        <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"
-        ></script>
-
-        <script
             type="text/javascript"
             src="{{ url_for('static', filename='index.js') }}"
         ></script>
+        {% block script %} {% endblock %}
     </body>
 </html>

@@ -32,7 +32,9 @@
     /* Add some padding inside the card container */
     .info > p {
       padding: 0px 0px;
-      font-size: 12px;
+      font-size: 15px;
+      word-spacing: normal;
+      margin: 0;
     }
 
     #info-primary {
@@ -40,7 +42,7 @@
     }
   
     #info-secondary {
-      font-size: 10px;
+      font-size: 11px;
       font-style: italic;
     }
   

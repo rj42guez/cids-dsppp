@@ -1,0 +1,847 @@
+{
+  "Member": [
+    {
+      "__EMPTY": "UPD-1",
+      "Email Address": "rbnellas@up.edu.ph; isc@up.edu.ph",
+      "Name": "Dr. Ricky Nellas",
+      "Position": "Executive Director",
+      "Department": "Institute of Chemistry",
+      "College/Unit": "Intelligent Systems Center",
+      "Campus": "University of the Philippines, Diliman",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "ricky.nellas@gmail.com"
+    },
+    {
+      "__EMPTY": "UPD-2",
+      "Email Address": "jybantang@up.edu.ph",
+      "Name": "Dr. Johnrob Bantang",
+      "Position": "Associate Professor",
+      "Department": "National Institute of Physics",
+      "College/Unit": "College of Science",
+      "Campus": "University of the Philippines, Diliman",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "jybantang@nip.upd.edu.ph"
+    },
+    {
+      "__EMPTY": "UPD-3",
+      "Email Address": "pacayton@up.edu.ph",
+      "Name": "Dr. Peter Cayton",
+      "Position": "Associate Professor",
+      "Department": "Forecasting Analytics",
+      "College/Unit": "School of Statistics",
+      "Campus": "University of the Philippines, Diliman",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "pacayton@up.edu.ph",
+      "Requirements": "ID only"
+    },
+    {
+      "__EMPTY": "UPD-4",
+      "Email Address": "jglansangan@up.edu.ph",
+      "Name": "Dr. Joseph Ryan Lansangan",
+      "Position": "Dean",
+      "Department": "Director of UP Interactive Learning Center ",
+      "College/Unit": "School of Statistics",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Timestamp": "Dr.",
+      "__EMPTY": "UPD-5",
+      "Email Address": "j_magadia@yahoo.com",
+      "Name": "Dr. Joselito Magadia",
+      "College/Unit": "School of Statistics",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "__EMPTY": "UPD-6",
+      "Email Address": "fidel.nemenzo@up.edu.ph",
+      "Name": "Dr. Fidel nemenzo",
+      "Position": "Chancellor",
+      "College/Unit": "Institute of Mathematics and Physics",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "__EMPTY": "UPD-7",
+      "Email Address": "jgtaguibao@up.edu.ph",
+      "Name": "Dr. Jalton Taguibao",
+      "Position": "Associate Professor",
+      "Department": "Political Science and Public Management",
+      "College/Unit": "CSSP",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "__EMPTY": "UPD-8",
+      "Email Address": "jcyap@up.edu.ph",
+      "Name": "Dr. Jan Michael Yap",
+      "Position": "Director, ",
+      "Department": "Computational Genomics and System Biology Program",
+      "College/Unit": "Philippine Genome Center",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Timestamp": 45525.63663923611,
+      "__EMPTY": "UPD-9",
+      "Email Address": "rmlizares@up.edu.ph; escapistrano@up.edu.ph",
+      "Name": "Erik Paolo S. Capistrano",
+      "Position": "Professor 2",
+      "Department": "Department of Business Administration",
+      "College/Unit": "Cesar E.A. Virata School of Business",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID bionote"
+    },
+    {
+      "Timestamp": "Dr.",
+      "__EMPTY": "UPD-10",
+      "Email Address": "rgmendoza1@up.edu.ph",
+      "Name": "Dr. Reiner Mendoza",
+      "College/Unit": "Institute of Math, CS",
+      "Campus": "University of the Philippines, Diliman",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": "Dr.",
+      "__EMPTY": "UPD-11",
+      "Email Address": "rrivero@math.upd.edu.ph",
+      "Name": "Dr. Rachelle Rivero-Sambayan",
+      "College/Unit": "Institute of Math, CS",
+      "Campus": "University of the Philippines, Diliman",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": 45525.63751752315,
+      "__EMPTY": "UPD-12",
+      "Email Address": "ruapolinario@up.edu.ph; ",
+      "Name": "Rhea Rowena Apolinario",
+      "Position": "Assistant Professor",
+      "Department": "NA",
+      "College/Unit": "School of Library and Information Studies",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID, TIN, LBP"
+    },
+    {
+      "Timestamp": 45526.48737533565,
+      "__EMPTY": "UPD-13",
+      "Email Address": "mjsanvalentin@up.edu.ph",
+      "Name": "Marc J. San Valentin",
+      "Position": "Associate Prof. V",
+      "Department": "Visual Communication",
+      "College/Unit": "Fine Arts",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "Timestamp": 45530.918320173616,
+      "__EMPTY": "UPD-14",
+      "Email Address": "svguevarra@up.edu.ph",
+      "Name": "SHIRLEY V. GUEVARRA (Temporary)",
+      "Position": "Prof. 12",
+      "Department": "Hotel, Restaurant and Institution Management",
+      "College/Unit": "Home Economics",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": 45544.48487407407,
+      "__EMPTY": "UPD-15",
+      "Email Address": "nasoliven@up.edu.ph",
+      "Name": "Nelvie Fatima Jane A. Soliven",
+      "Position": "University Researcher I",
+      "Department": "Natural Sciences Research Institute",
+      "College/Unit": "College of Science",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": 45544.74632019676,
+      "__EMPTY": "UPD-16",
+      "Email Address": "ralagria@up.edu.ph",
+      "Name": "Raymond Freth A. Lagria",
+      "Position": "Assistant Professor",
+      "Department": "Department of Industrial Engineering and Operations Research",
+      "College/Unit": "College of Engineering",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "Timestamp": 45545.74735578704,
+      "__EMPTY": "UPD-17",
+      "Email Address": "mrserrano@up.edu.ph; eacabegin@up.edu.ph",
+      "Name": "Emily Christi A. Cabegin",
+      "Position": "Professor III",
+      "Department": "School of Labor and Industrial Relations",
+      "College/Unit": "School of Labor and Industrial Relations",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "need to respond"
+    },
+    {
+      "Timestamp": 45546.522080532406,
+      "__EMPTY": "UPD-18",
+      "Email Address": "acgamboa@up.edu.ph",
+      "Name": "Anna Gamboa",
+      "Position": "Assistant Professor I",
+      "Department": "Department of Speech Communication and Theatre Arts",
+      "College/Unit": "CAL",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "Timestamp": 45546.60996677083,
+      "__EMPTY": "UPD-19",
+      "Email Address": "tsdeluna@up.edu.ph",
+      "Name": "Teresa Paula De Luna",
+      "Position": "Professor 1",
+      "Department": "Department of Speech Communication and Theatre Arts",
+      "College/Unit": "CAL",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "Timestamp": 45546.80079518519,
+      "__EMPTY": "UPD-20",
+      "Email Address": "otserquina@up.edu.ph; klcruz1@up.edu.ph",
+      "Name": "Karl Lewis Cruz ",
+      "Position": "Instructor 4",
+      "Department": "Department of Speech Communication and Theatre Arts",
+      "College/Unit": "College of Arts and Letters",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "Timestamp": 45548.617409224535,
+      "__EMPTY": "UPD-21",
+      "Email Address": "jipedrasa@up.edu.ph",
+      "Name": "Dr. Jhoanna Rhodette I. Pedrasa",
+      "Position": "Professor 3",
+      "Department": "Electrical and Electronics Engineering Institute",
+      "College/Unit": "College of Engineering",
+      "Campus": "UP Diliman ",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "__EMPTY": "UPD-22",
+      "Email Address": "kbberse@up.edu.ph; ajmanalo@up.edu.ph; ",
+      "Name": "Dr. Abraham J. Manalo",
+      "Position": "Assistant Professor",
+      "College/Unit": "NCPAG",
+      "Campus": "UP Diliman "
+    },
+    {
+      "Timestamp": 45559.361550925925,
+      "__EMPTY": "UPD-23",
+      "Email Address": "dcmagnaye@up.edu.ph",
+      "Name": "Dina C. Magnaye",
+      "Position": "Associate Professor",
+      "Department": "School of Urban and Regional Planning",
+      "College/Unit": "School of Urban and Regional Planning",
+      "Campus": "UP Diliman "
+    },
+    {
+      "Timestamp": 45526.41458831019,
+      "__EMPTY": "LB-1",
+      "Email Address": "mceusebio@up.edu.ph",
+      "Name": "Maria Liezel C Eusebio",
+      "Position": "Assistant professor 4",
+      "Department": "Industrial Engineering Department",
+      "College/Unit": "CEAT UPLB",
+      "Campus": "UP Los Baños",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID bionote"
+    },
+    {
+      "Timestamp": 45526.63855483796,
+      "__EMPTY": "LB-2",
+      "Email Address": "tacollantes@up.edu.ph",
+      "Name": "Therese Marie Collantes",
+      "Position": "Associate Professor V",
+      "Department": "Department of Veterinary Paraclinical Sciences",
+      "College/Unit": "College of Veterinary Medicine",
+      "Campus": "UP Los Baños",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": 45527.5655525926,
+      "__EMPTY": "LB-3",
+      "Email Address": "cdmedina@up.edu.ph",
+      "Name": "Celia dR. Medina",
+      "Position": "Professor",
+      "Department": "Institute of Weed Science Entomology and Plant Pathology",
+      "College/Unit": "College of Agriculture and Food Science",
+      "Campus": "UP Los Baños",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "Timestamp": 45544.53441204861,
+      "__EMPTY": "LB-4",
+      "Email Address": "rlroxasvillanueva@up.edu.ph",
+      "Name": "Ranzivelle Marianne Roxas-Villanueva",
+      "Position": "Professor V",
+      "Department": "Institute of Mathematical Sciences and Physics",
+      "College/Unit": "College of Arts and Sciences",
+      "Campus": "UP Los Baños",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": 45544.69431575232,
+      "__EMPTY": "LB-5",
+      "Email Address": "rcrecario@up.edu.ph",
+      "Name": "Reginald Neil Recario",
+      "Position": "Assistant Professor",
+      "Department": "Institute of Computer Science",
+      "College/Unit": "College of Arts and Sciences",
+      "Campus": "UP Los Baños",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID bionote"
+    },
+    {
+      "Timestamp": 45544.72020278935,
+      "__EMPTY": "LB-6",
+      "Email Address": "naegarguin1@up.edu.ph",
+      "Name": "Neil Jerome A. Egarguin",
+      "Position": "Associate Professor 4",
+      "Department": "Institute of Mathematical Sciences and Physics",
+      "College/Unit": "College of Arts and Sciences",
+      "Campus": "UP Los Baños",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": 45525.52532153935,
+      "__EMPTY": "UPM-1",
+      "Email Address": "celabarda@up.edu.ph",
+      "Name": "Charlie E. Labarda",
+      "Position": "Professor and Dean",
+      "Department": "Department of Medicine",
+      "College/Unit": "School of Health Sciences",
+      "Campus": "UP Manila",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "__EMPTY": "UPM-2",
+      "Email Address": "admarcelo@up.edu.ph",
+      "Name": "Dr. Alvin Marcelo",
+      "Position": "Managing Director, ",
+      "Department": "Philippine General Hospital",
+      "College/Unit": "PGH Interoperability Lab",
+      "Campus": "UP  Manila",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "alvin.marcelo@gmail.com",
+      "Requirements": "ID bionote"
+    },
+    {
+      "__EMPTY": "UPM-3",
+      "Email Address": "rrsarmiento@up.edu.ph",
+      "Name": "Dr. Raymond Sarmiento",
+      "Position": "Director, ",
+      "Department": "National Telehealth Center",
+      "College/Unit": "National Institute of Health",
+      "Campus": "UP Manila"
+    },
+    {
+      "Timestamp": 45525.83011613426,
+      "__EMPTY": "OU-1",
+      "Email Address": "mdoruga@up.edu.ph",
+      "Name": "Dr. Myra Oruga",
+      "Position": "Associate Professor II",
+      "Department": "OVCAA",
+      "College/Unit": "OVCAA",
+      "Campus": "UP Open University",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "Timestamp": 45537.68343950232,
+      "__EMPTY": "OU-2",
+      "Email Address": "lcdepante@up.edu.ph",
+      "Name": "Lianne Angelico Depante",
+      "Position": "Assistant Professor 1",
+      "Department": "N/A",
+      "College/Unit": "Faculty of Management and Development Studies",
+      "Campus": "UP Open University",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "Timestamp": 45538.41614890046,
+      "__EMPTY": "OU-3",
+      "Email Address": "riavalerie.cabanes@upou.edu.ph",
+      "Name": "Ria Valerie D. Cabanes",
+      "Position": "Asst Professor ",
+      "Department": "Faculty of Management and Development Studies,",
+      "College/Unit": "Master of Arts in Nursing Program",
+      "Campus": "UP Open University",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group"
+    },
+    {
+      "__EMPTY": "OU-4",
+      "Email Address": "rhborromeo@up.edu.ph",
+      "Name": "Dr. Ria Borromeo",
+      "Position": "Assistant Professor,",
+      "Department": "Computer Science Major in Database",
+      "College/Unit": " Faculty of Information and Communication Studies",
+      "Campus": "UP Open University",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "riamae.borromeo@upou.edu.ph",
+      "Requirements": "ID bionote"
+    },
+    {
+      "__EMPTY": "OU-5",
+      "Email Address": "agflor@up.edu.ph",
+      "Name": "Dr. Alexander Flor",
+      "Position": "Dean, ",
+      "College/Unit": "Faculty of Information and Communication Studies",
+      "Campus": "UP Open University",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "aflor@upou.edu.ph; alexander.flor@up.edu.ph",
+      "Requirements": "ID bionote"
+    },
+    {
+      "__EMPTY": "OU-6",
+      "Email Address": "mflumanta@up.edu.ph",
+      "Name": "Dr. Melinda Lumanta",
+      "Position": "Vice Chancellor",
+      "Department": "Office of the Vice Chancellor for Academic Affairs",
+      "Campus": "UP Open University",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "oc@upou.edu.ph, mflumanta@upou.edu.ph"
+    },
+    {
+      "__EMPTY": "OU-7",
+      "Email Address": "dsmaranan@up.edu.ph",
+      "Name": "Dr. Diego Maranan",
+      "Position": "Assistant Professor, New Dean",
+      "Department": "Student Affairs, Multimedia Services",
+      "College/Unit": " Faculty of Information and Communication Studies",
+      "Campus": "UP Open University",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "diego.maranan@upou.edu.ph",
+      "Requirements": "need to respond"
+    },
+    {
+      "Timestamp": "Dr.",
+      "__EMPTY": "Min-1",
+      "Email Address": "vbkobayashi@up.edu.ph",
+      "Name": "Dr. Vladimer Kobayashi ",
+      "Department": "Department of Mathematics, Physics, and Computer Science",
+      "Campus": "University of the Philippines Mindanao "
+    },
+    {
+      "Timestamp": 45544.394662199076,
+      "__EMPTY": "Min-2",
+      "Email Address": "avgomez@up.edu.ph",
+      "Name": "Aurelia Luzviminda V. Gomez",
+      "Position": "Associate Professor",
+      "Department": "N/A",
+      "College/Unit": "School of Management",
+      "Campus": "UP Mindanao",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": 45548.41233478009,
+      "__EMPTY": "Vis-1",
+      "Email Address": "rbmontes@up.edu.ph",
+      "Name": "Rosabella B. Montes",
+      "Position": "Assistant Professor 4",
+      "Department": "Computer Science and Mathematics",
+      "College/Unit": "Division of Natural Sciences and Mathematics",
+      "Campus": "UP Tacloban",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": 45525.55441607639,
+      "__EMPTY": "Vis-2",
+      "Email Address": "gddefiesta1@up.edu.ph",
+      "Name": "Dr Gay Defiesta",
+      "Position": "Professor 5",
+      "Department": "Division of Social Sciences",
+      "College/Unit": "College of Arts and Sciences",
+      "Campus": "UP Visayas",
+      "Would you or any senior official from your college/school/unit be interested in joining DSPPP's Data Science Working Group (DSWG)?  ": "Yes, our college/unit will designate a representative to the Data Science Working Group",
+      "Requirements": "ID Bionote TIN LBP"
+    },
+    {
+      "Timestamp": "Dr",
+      "__EMPTY": "DEPP",
+      "Email Address": "mrlavides@up.edu.ph",
+      "Name": "Dr. Maria Margarita Lavides",
+      "Campus": "UP Diliman Extension Programs in Pampanga"
+    }
+  ],
+  "Sheet1": [
+    {
+      "Title": "Dr.",
+      "Email": "ruapolinario@up.edu.ph",
+      "Last Name": "Apolinario",
+      "First Name": "Rhea Rowena",
+      "Designation": "Assistant Professor/ Dean",
+      "College/Institute": "School of Library and Information Studies",
+      "Campus": "UP Diliman (including UPD Extension Programs in Olongapo and Pampanga)"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "jybantang@nip.upd.edu.ph",
+      "Last Name": "Bantang",
+      "First Name": "Johnrob",
+      "College/Institute": "College of Science",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "riamae.borromeo@upou.edu.ph",
+      "Last Name": "Borromeo",
+      "First Name": "Ria",
+      "Designation": "Assistant Professor",
+      "College/Institute": "Faculty of Information and Communication Studies",
+      "Campus": "University of the Philippines, Open University"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "riavalerie.cabanes@upou.edu.ph",
+      "Last Name": "Cabanes",
+      "First Name": "Ria Valerie",
+      "Designation": "Assistant Professor",
+      "College/Institute": "Faculty of Management and Development Studies, Master of Arts in Nursing Program",
+      "Campus": "University of the Philippines, Open University"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "mrserrano@up.edu.ph",
+      "Last Name": "Cabegin",
+      "First Name": "Emily Christi",
+      "Designation": "Professor III",
+      "College/Institute": "School of Labor and Industrial Relations",
+      "Campus": "UP Diliman"
+    },
+    {
+      "Title": "Dr. ",
+      "Email": "escapistrano@up.edu.ph",
+      "Last Name": "Capistrano",
+      "First Name": "Erik Paolo",
+      "Designation": "Professor 2",
+      "College/Institute": "Department of Business Administration, Cesar E.A. Virata School of Business",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "adcarreon@up.edu.ph",
+      "Last Name": "Carreon",
+      "First Name": "Angela",
+      "Campus": "UP Diliman Extension Programs in Pampanga"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "pacayton@up.edu.ph",
+      "Last Name": "Cayton",
+      "First Name": "Peter",
+      "Designation": "Associate Professor 2",
+      "College/Institute": "School of Statistics",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "tacollantes@up.edu.ph",
+      "Last Name": "Collantes",
+      "First Name": "Therese Marie",
+      "Designation": "Associate Professor V",
+      "College/Institute": "Department of Veterinary Paraclinical Sciences, College of Veterinary Medicine",
+      "Campus": "UP Los Baños"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "klcruz1@up.edu.ph",
+      "Last Name": "Cruz",
+      "First Name": "Karl Lewis",
+      "Designation": "Instructor IV",
+      "College/Institute": "I ",
+      "Campus": "UP Diliman"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "redeleon@up.edu.ph",
+      "Last Name": "De Leon",
+      "First Name": "Remi",
+      "Campus": "UP Diliman Extension Programs in Pampanga"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "tsdeluna@up.edu.ph",
+      "Last Name": "De Luna",
+      "First Name": "Teresa Paula",
+      "Designation": "Professor I",
+      "College/Institute": "Department of Speech Communication and Theater Arts, College of Arts and Letters",
+      "Campus": "UP Diliman"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "gddefiesta1@up.edu.ph",
+      "Last Name": "Defiesta",
+      "First Name": "Gay",
+      "Designation": "Professor 5",
+      "College/Institute": "Division of Social Sciences, College of Arts and Sciences",
+      "Campus": "UP Visayas"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "lcdepante@up.edu.ph",
+      "Last Name": "Depante",
+      "First Name": "Lianne Angelico",
+      "Designation": "Assistant Professor 1",
+      "College/Institute": "Faculty of Management and Development Studies",
+      "Campus": "University of the Philippines, Open University"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "naegarguin1@up.edu.ph",
+      "Last Name": "Egarguin",
+      "First Name": "Neil Jerome",
+      "Designation": "Associate Professor 4",
+      "College/Institute": "Institute of Mathematical Sciences and Physics, College of Arts and Sciences",
+      "Campus": "UP Los Baños"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "mceusebio@up.edu.ph",
+      "Last Name": "Eusebio",
+      "First Name": "Maria Liezel",
+      "Designation": "Assistant Professor 4",
+      "College/Institute": "Industrial Engineering Department, CEAT UPLB",
+      "Campus": "UP Los Baños"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "aflor@upou.edu.ph, alexander.flor@up.edu.ph",
+      "Last Name": "Flor",
+      "First Name": "Alexander",
+      "Designation": "Dean",
+      "College/Institute": "Faculty of Information and Communication Studies",
+      "Campus": "University of the Philippines, Open University"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "acgamboa@up.edu.ph",
+      "Last Name": "Gamboa",
+      "First Name": "Anna",
+      "Designation": "Assistant Professor I",
+      "College/Institute": "Department of Speech Communication and Theater Arts, College of Arts and Letters",
+      "Campus": "UP Diliman"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "avgomez@up.edu.ph",
+      "Last Name": "Gomez",
+      "First Name": "Aurelia Luzviminda",
+      "Designation": "Associate Professor",
+      "College/Institute": "School of Management",
+      "Campus": "University of the Philippines Mindanao "
+    },
+    {
+      "Title": "Prof.",
+      "Email": "svguevarra@up.edu.ph",
+      "Last Name": "Guevarra",
+      "First Name": "Shirley",
+      "Designation": "Professor 12",
+      "College/Institute": "Hotel, Restaurant and Institution Management, Home Economics",
+      "Campus": "UP Diliman (including UPD Extension Programs in Olongapo and Pampanga)"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "vbkobayashi@up.edu.ph",
+      "Last Name": "Kobayashi ",
+      "First Name": "Vladimer ",
+      "College/Institute": "Department of Mathematics, Physics, and Computer Science",
+      "Campus": "University of the Philippines Mindanao "
+    },
+    {
+      "Email": "celabarda@up.edu.ph",
+      "Last Name": "Labarda",
+      "First Name": "Charlie",
+      "Designation": "Professor and Dean",
+      "College/Institute": "Department of Medicine, School of Health Sciences",
+      "Campus": "UP Manila"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "ralagria@up.edu.ph",
+      "Last Name": "Lagria",
+      "First Name": "Raymond Freth",
+      "Designation": "Assistant Professor",
+      "College/Institute": "Department of Industrial Engineering and Operations Research, College of Engineering",
+      "Campus": "UP Diliman"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "jglansangan@up.edu.ph",
+      "Last Name": "Lansangan",
+      "First Name": "Joseph Ryan",
+      "Designation": "Dean",
+      "College/Institute": "School of Statistics",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Dr",
+      "Email": "mrlavides@up.edu.ph",
+      "Last Name": "Dr. Maria Margarita Lavides",
+      "Campus": "UP Diliman Extension Programs in Pampanga"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "j_magadia@yahoo.com",
+      "Last Name": "Magadia",
+      "First Name": "Joselito",
+      "College/Institute": "School of Statistics",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "diego.maranan@upou.edu.ph",
+      "Last Name": "Maranan",
+      "First Name": "Diego",
+      "Designation": "Assistant Professor",
+      "College/Institute": "Faculty of Information and Communication Studies",
+      "Campus": "University of the Philippines, Open University"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "alvin.marcelo@gmail.com",
+      "Last Name": "Marcelo",
+      "First Name": "Alvin",
+      "Designation": "Managing Director",
+      "College/Institute": "PGH Interoperability Lab",
+      "Campus": "Philippine General Hospital"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "cdmedina@up.edu.ph",
+      "Last Name": "Medina",
+      "First Name": "Celia",
+      "Designation": "Professor",
+      "College/Institute": "Institute of Weed Science Entomology and Plant Pathology, College of Agriculture and Food Science",
+      "Campus": "UP Los Baños"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "rgmendoza1@up.edu.ph",
+      "Last Name": "Mendoza",
+      "First Name": "Reiner",
+      "College/Institute": "Institute of Math, CS",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "rbmontes@up.edu.ph",
+      "Last Name": "Montes",
+      "First Name": "Rosabella",
+      "Designation": "Assistant Professor 4",
+      "College/Institute": "Computer Science and Mathematics, Division of Natural Sciences and Mathematics",
+      "Campus": "UP Tacloban"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "fidel.nemenzo@up.edu.ph",
+      "Last Name": "Nemenzo",
+      "First Name": "Fidel",
+      "College/Institute": "Chancellor",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "mdoruga@up.edu.ph",
+      "Last Name": "Oruga",
+      "First Name": "Myra",
+      "Designation": "Associate Professor II",
+      "College/Institute": "OVCAA",
+      "Campus": "UP Open University"
+    },
+    {
+      "Title": "Dr",
+      "Email": "pppanlilio@up.edu.ph",
+      "Last Name": "Panlilio",
+      "First Name": "Purisima",
+      "Campus": "UP Diliman Extension Programs in Pampanga"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "director@eee.upd.edu.ph",
+      "Last Name": "Pedrasa",
+      "First Name": "Jhoanna Rhodette",
+      "Designation": "Professor 3",
+      "College/Institute": "Electrical and Electronics Engineering Institute, College of Engineering",
+      "Campus": "UP Diliman"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "rcrecario@up.edu.ph",
+      "Last Name": "Recario",
+      "First Name": "Reginald Neil",
+      "Designation": "Assistant Professor",
+      "College/Institute": "Institute of Computer Science, College of Arts and Sciences",
+      "Campus": "UP Los Baños"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "rrivero@math.upd.edu.ph",
+      "Last Name": "Rivero-Sambayan",
+      "First Name": "Rachelle ",
+      "College/Institute": "Institute of Math, CS",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "rlroxasvillanueva@up.edu.ph",
+      "Last Name": "Roxas-Villanueva",
+      "First Name": "Ranzivelle Marianne",
+      "Designation": "Professor V",
+      "College/Institute": "Institute of Mathematical Sciences and Physics, College of Arts and Sciences",
+      "Campus": "UP Los Baños"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "mjsanvalentin@up.edu.ph",
+      "Last Name": "San Valentin",
+      "First Name": "Marc",
+      "Designation": "Associate Professor V",
+      "College/Institute": "Visual Communication, Fine Arts",
+      "Campus": "UP Diliman (including UPD Extension Programs in Olongapo and Pampanga)"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "rrsarmiento@up.edu.ph",
+      "Last Name": "Sarmiento",
+      "First Name": "Raymond",
+      "College/Institute": "Director, National Telehealth Center",
+      "Campus": "UP Manila - National Institutes of Health"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "nasoliven@up.edu.ph",
+      "Last Name": "Soliven",
+      "First Name": "Nelvie Fatima Jane",
+      "Designation": "University Researcher I",
+      "College/Institute": "Natural Sciences Research Institute, College of Science",
+      "Campus": "UP Diliman"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "jgtaguibao@up.edu.ph",
+      "Last Name": "Taguibao",
+      "First Name": "Jalton",
+      "Designation": "Associate Professor",
+      "College/Institute": "Department of Political Science",
+      "Campus": "University of the Philippines, Diliman"
+    },
+    {
+      "Title": "Prof.",
+      "Email": "cftiangco@up.edu.ph",
+      "Last Name": "Tiangco",
+      "First Name": "Cristabel",
+      "Campus": "UP Diliman Extension Programs in Pampanga"
+    },
+    {
+      "Title": "Dr.",
+      "Email": "jcyap@up.edu.ph",
+      "Last Name": "Yap",
+      "First Name": "Jan Michael",
+      "Designation": "Chairman",
+      "College/Institute": "Department of Computer Science",
+      "Campus": "University of the Philippines, Diliman"
+    }
+  ]
+}
