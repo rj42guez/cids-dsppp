@@ -1,12 +1,3 @@
-h2 {
-    font-family: 'Bowlby One SC';
-    text-align: center;
-    background: -webkit-linear-gradient(#D5E4BB, #ffffff);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-    font-size: 50px;
-}
-
 p {
     font-family: 'Verdana';
     padding-left: 40;
@@ -14,7 +5,7 @@ p {
     text-align: justify;
     text-justify: inter-word;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .obj {
