@@ -3,7 +3,6 @@ const restPara = document.getElementById('info-secondary');
 
 alert("Help me!");
 
-
 fetch('website/static/dswg.json')
     .then(res => res.json())
     .then(data => {
@@ -16,20 +15,4 @@ fetch('website/static/dswg.json')
                 document.getElementById('info-secondary').innerHTML += `${position}, ${department}, ${campus}`;
         }
     })
-
-$(function() {
-
-
-    var people = [];
     
-    $.getJSON('dswg.json', function(data) {
-        $.each(data.Member, function(i, f) {
-            var first = f.Name
-            var second = f.Position+", "+f.Department
-            $(first).appendTo("#info-primary");
-            $(second).appendTo("#info-secondary");
-        });
-    
-    });
-    
-    });
