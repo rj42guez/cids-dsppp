@@ -1,1 +1,9 @@
-.rWorkshopDay1 {display:none;}
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scroll-container img {
+    padding: 20px;
+  }

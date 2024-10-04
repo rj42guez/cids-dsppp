@@ -4,68 +4,37 @@
       CIDS DSPPP - Events
 {% endblock %}
 
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='programs.css') }}">
+{% endblock %}
+
 
 {% block content %}
 <h2>Events</h2>
 
 
-<div class="w3-content w3-display-container">
-      
-      <img class="rWorkshopDay1" src="../static/IMG_0970.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0961.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0958.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0966.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0973.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0965.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0974.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0977.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0964.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0981.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0983.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0991.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0984.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0988.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0990.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0993.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0995.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0998.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_0999.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1000.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1002.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1003.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1004.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1007.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1011.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1012.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1013.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1014.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1015.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1016.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1018.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1021.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1022.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1023.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1024.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1025.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1029.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1032.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1033.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1035.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1037.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1038.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1040.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1041.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1043.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1047.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1048.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1050.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1054.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1055.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1056.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/IMG_1057.JPG" style="width:100%">
-
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+<div class="scroll-container">
+      <img src="../static/IMG_0970.JPG" width="600" height="400">
+      <img src="../static/RWorkshop/July 30/IMG_1134.JPG" width="600" height="400">
+      <img src="../static/IMG_0964.JPG" width="600" height="400">
+      <img src="../static/IMG_0965.JPG" width="600" height="400">
+      <img src="../static/IMG_0966.JPG" width="600" height="400">
+      <img src="../static/IMG_0958.JPG" width="600" height="400">
+      <img src="../static/IMG_0970.JPG" width="600" height="400">
+      <img src="../static/IMG_0973.JPG" width="600" height="400">
+      <img src="../static/IMG_0974.JPG" width="600" height="400">
+      <img src="../static/IMG_0977.JPG" width="600" height="400">
+      <img src="../static/IMG_0979.JPG" width="600" height="400">
+      <img src="../static/IMG_0981.JPG" width="600" height="400">
+      <img src="../static/IMG_0983.JPG" width="600" height="400">
+      <img src="../static/IMG_0984.JPG" width="600" height="400">
+      <img src="../static/IMG_0988.JPG" width="600" height="400">
+      <img src="../static/IMG_0990.JPG" width="600" height="400">
+      <img src="../static/IMG_0991.JPG" width="600" height="400">
+      <img src="../static/IMG_0993.JPG" width="600" height="400">
+      <img src="../static/IMG_0995.JPG" width="600" height="400">
+      <img src="../static/IMG_0998.JPG" width="600" height="400">
+      <img src="../static/IMG_0999.JPG" width="600" height="400">
 
 </div>
 
