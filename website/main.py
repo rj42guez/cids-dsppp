@@ -13,7 +13,7 @@ def about():
 
 @app.route('/events')
 def programs():
-    return render_template("programs.php")
+    return render_template("programs.html")
 
 @app.route('/community')
 def members():
