@@ -59,7 +59,6 @@
       <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_1043.JPG" style="width:100%">
       <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_1047.JPG" style="width:100%">
       <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_1048.JPG" style="width:100%">
-      <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_1049.JPG" style="width:100%">
       <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_1050.JPG" style="width:100%">
       <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_1054.JPG" style="width:100%">
       <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_1055.JPG" style="width:100%">
