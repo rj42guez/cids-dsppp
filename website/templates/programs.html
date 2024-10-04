@@ -7,4 +7,28 @@
 
 {% block content %}
 <h2>Events</h2>
+
+
+<div class="w3-content w3-display-container">
+
+      <?php
+            $files = scandir('path/to/img/directory/');
+            foreach($files as $file) {
+                  if($file !== "." && $file !== "..") {
+                        echo "<img src='$file' />";
+                  }
+            }
+      ?>
+      
+      <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_0958.JPG" style="width:100%">
+      <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_0961.JPG" style="width:100%">
+      <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_0964.JPG" style="width:100%">
+      <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_0965.JPG" style="width:100%">
+      <img class="rWorkshopDay1" src="../static/Spatial and Text Data Analysis (July 29 - July 31)/July 29/IMG_0966.JPG" style="width:100%">
+      
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+</div>
+
 {% endblock %}
