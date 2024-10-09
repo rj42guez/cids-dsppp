@@ -22,7 +22,7 @@ function openNav() {
     document.getElementById("mobileMenuContents").style.display = "block";
   }
   
-function closeNav() {
+  function closeNav() {
     document.getElementById("mobileMenu").style.width = "0%";
   }
 
