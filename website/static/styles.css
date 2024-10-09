@@ -178,4 +178,13 @@ ul {
     right: 35px;
         }
     }
+
+    h1 {
+        font-family: 'Bowlby One SC';
+        text-align: center;
+        background: -webkit-linear-gradient(#D5E4BB, #ffffff);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+        font-size: 40px;
+    }
 }
