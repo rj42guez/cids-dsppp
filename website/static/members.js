@@ -6,6 +6,7 @@ alert("Help me!");
 fetch('website/static/dswg.json')
     .then(res => res.json())
     .then(data => {
+        console.log(data)
         for (let i = 0; i<data.Member.length; i++){
             let name = data.Member[i].Name;
             let position = data.Member[i].Position;

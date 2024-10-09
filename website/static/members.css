@@ -6,11 +6,11 @@
   
   .cards {
       /* Add shadows to create the "card" effect */
-      text-align: center;
+      align-self: center;
       display: flex;
       flex-wrap: wrap;
       position: relative;
-      padding: 0px 60px;
+      padding: 0px 30px;
       padding-bottom: 20px;
       padding-left: 4%;
       padding-right: 4%;
