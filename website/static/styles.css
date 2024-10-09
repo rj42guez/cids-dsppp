@@ -2,6 +2,13 @@ body {
     background-color: #a3c368;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+@font-face {
+    font-family: font1;
+    src: url(../fonts/montserrat.woff);
+  }
+
 h1 {
     font-family: 'Bowlby One SC';
     text-align: center;
@@ -68,10 +75,12 @@ ul {
 }
 
 #overlay content{
+    font-family: font1;
     display: none;
 }
 
 #mobileMenu {
+    font-family: font1;
     display: none;
 }
 
@@ -151,6 +160,7 @@ footer {
        }
 
     .overlay {
+        font-family: font1;
         height: 100%;
         width: 0;
         position: fixed;
@@ -165,6 +175,7 @@ footer {
       }
       
     #mobileMenuContents {
+        font-family: font1;
         position: relative;
         top: 35;
         display: inline;
@@ -175,6 +186,8 @@ footer {
       }
       
     .overlay a {
+        
+        font-family: font1;
         padding: 6px;
         text-decoration: none;
         font-size: 30px;
@@ -188,6 +201,7 @@ footer {
       }
     
     #mobileMenuCloseButton {
+        font-family: font1;
         position: absolute;
         padding-top: 0px;
         z-index: 1;
