@@ -18,10 +18,11 @@ function mobileNavbar() {
   } 
 
 function openNav() {
-    document.getElementById("mobileNavbar").style.width = "100%";
+    document.getElementById("mobileMenu").style.width = "100%";
+    document.getElementById("mobileMenuContents").style.display = "block";
   }
   
 function closeNav() {
-    document.getElementById("mobileNavbar").style.width = "0%";
+    document.getElementById("mobileMenu").style.width = "0%";
   }
 
