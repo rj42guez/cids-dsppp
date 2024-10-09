@@ -124,8 +124,8 @@ ul {
         font-size: 40px;
     }
 
-    .content{
-        padding-top: 60px;
+    .PageMainContents{
+        padding-top: 10px;
     }
 
     span {
@@ -146,13 +146,15 @@ ul {
         top: 0;
         background-color: rgb(6, 29, 2);
         background-color: rgba(6, 29, 2, 0.9);
+        overflow-x: auto;
+        word-wrap: normal;
         transition: 0.5s;
       }
       
     #mobileMenuContents {
         position: relative;
-        display: none;
         top: 35;
+        display: block;
         width: 100%;
         text-align: center;
         padding-top: 50px;
@@ -176,14 +178,12 @@ ul {
         
         position: absolute;
         padding-top: 0px;
-    }
-      
-    .overlay .closebtn {
-        position: absolute;
+        z-index: 1;
         top: 0px;
         right: 25px;
         font-size: 40px;
-      }
+    }
+   
 }
     
 @media screen and (max-height: 450px) {
@@ -194,4 +194,4 @@ ul {
       top: 15px;
       right: 35px;
     }
-  }
+}
