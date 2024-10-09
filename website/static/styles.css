@@ -16,8 +16,8 @@ p {
     font-size: 15px;
 }
 
-.content{
-    padding-top: 80px;
+.PageMainContents{
+    padding-top: 100px;
 }
 
 
@@ -60,7 +60,7 @@ ul {
     font-size: 15px;
 }
 
-#mobileNavbar {
+.mobileMenuOpenButton {
     display: none;
 }
 
@@ -68,7 +68,7 @@ ul {
     display: none;
 }
 
-.mobileMenu {
+#mobileMenu {
     display: none;
 }
 
@@ -146,16 +146,16 @@ ul {
         top: 0;
         background-color: rgb(6, 29, 2);
         background-color: rgba(6, 29, 2, 0.9);
-        overflow-x: auto;
-        word-wrap: normal;
+        overflow-x: hidden;
         transition: 0.5s;
+        line-break: strict;
       }
       
     #mobileMenuContents {
         position: relative;
         top: 35;
-        display: block;
-        width: 100%;
+        display: inline;
+        width: auto;
         text-align: center;
         padding-top: 50px;
         transition: 0.3s;
@@ -167,7 +167,7 @@ ul {
         font-size: 15px;
         color: #ffffff;
         display: block;
-        transition: 0.1s;
+        transition: 0.3s;
       }
       
     .overlay a:hover, .overlay a:focus {
@@ -175,7 +175,6 @@ ul {
       }
     
     #mobileMenuCloseButton {
-        
         position: absolute;
         padding-top: 0px;
         z-index: 1;
