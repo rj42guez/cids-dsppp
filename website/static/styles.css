@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: font1;
-    src: url(../fonts/montserrat.woff);
+    src: url(./fonts/BowlbyOneSC-Regular.otf);
   }
 
 h1 {
@@ -135,7 +135,7 @@ footer {
 
     .mobileMenuOpenButton {
         display: block;
-        padding-left: 15px;
+        padding-left: 13px;
     }
 
     #mobileMenu {
@@ -200,14 +200,15 @@ footer {
         text-align: center;
         padding-top: 50px;
         transition: 0.3s;
+        font-size: 10px;
       }
       
     .overlay a {
         
         font-family: font1;
-        padding: 6px;
+        padding: 12px;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 25px;
         color: #ffffff;
         display: block;
         transition: 0.3s;
