@@ -13,6 +13,7 @@ div.scroll-container {
   @media screen and (max-width: 1000px) {
     div.scroll-container img {
       width: 50%;
+  	  padding: 5%;
       height: 50%;
     }
 }
