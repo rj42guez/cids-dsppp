@@ -19,13 +19,13 @@ h1 {
 }
 
 p {
-    padding: 0px 80px;
+    padding: 0px 60px;
     font-size: 15px;
 }
 
 .PageMainContents{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     height: auto;
 }
 
@@ -38,7 +38,7 @@ h2 {
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
     font-size: 40px;
-    padding: 0px 80px;
+    padding: 0px 60px;
 }
 
 h4 {
@@ -46,7 +46,7 @@ h4 {
     padding-left: 80px;
     color: #ffffff;
     font-weight: bold;
-    padding: 0px 80px;
+    padding: 0px 50px;
     font-size: 25px;
 }
 
@@ -124,6 +124,11 @@ footer {
 
 @media screen and (max-width: 1000px)
 {
+    
+    footer {
+        font-size: 9px;
+    }
+
     #icon {
         size: 100px;
     }
@@ -144,6 +149,18 @@ footer {
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
         font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 11px;
     }
 
     .PageMainContents{
