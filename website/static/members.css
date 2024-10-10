@@ -46,4 +46,32 @@
       font-style: italic;
     }
   
-  
+    @media screen and (max-height: 1000px) {
+      
+      .cards > .card {
+        margin: 3px auto;
+        width: 110px;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      h4 {
+        text-align: center;
+      }
+
+      #info-primary {
+        font-style: oblique;
+        font-size: 10px;
+      }
+    
+      #info-secondary {
+        font-size: 8px;
+        font-style: italic;
+      }
+
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+  }

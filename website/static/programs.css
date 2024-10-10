@@ -6,4 +6,12 @@ div.scroll-container {
   
   div.scroll-container img {
     padding: 20px;
+    width: 600;
+    height: 400
   }
+
+  @media screen and (max-height: 450px) {
+    div.scroll-container img {
+      width: 300;
+    }
+}
