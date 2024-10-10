@@ -46,7 +46,7 @@
       font-style: italic;
     }
   
-    @media screen and (max-height: 1000px) {
+    @media screen and (max-height: 800px) {
       
       .cards > .card {
         margin: 3px auto;
