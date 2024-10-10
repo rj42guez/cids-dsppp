@@ -9,8 +9,9 @@ body {
     src: url(./fonts/BowlbyOneSC-Regular.otf);
   }
 
+
 h1 {
-    font-family: 'Bowlby One SC';
+    font-family: font1;
     text-align: center;
     background: -webkit-linear-gradient(#D5E4BB, #ffffff);
                 -webkit-background-clip: text;
@@ -32,7 +33,7 @@ p {
 
 
 h2 {
-    font-family: 'Bowlby One SC';
+    font-family: font1;
     text-align: center;
     background: -webkit-linear-gradient(#D5E4BB, #ffffff);
                 -webkit-background-clip: text;
@@ -143,7 +144,7 @@ footer {
     }
     
     h1 {
-        font-family: 'Bowlby One SC';
+        font-family: font1;
         text-align: center;
         background: -webkit-linear-gradient(#D5E4BB, #ffffff);
                     -webkit-background-clip: text;
