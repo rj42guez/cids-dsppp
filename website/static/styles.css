@@ -11,8 +11,6 @@ body {
             url(./fonts/BowlbyOneSC-Regular.woff);
   }
 
-
-
 h1 {
     font-family: font1;
     text-align: center;
@@ -76,14 +74,14 @@ ul {
   }
 
 #navbarMain {
-    list-style-type: none;
+    overflow: hidden;
     top: 0;
-    padding: 10px 100px;
+    padding: 0px 80px;
     position: fixed;
-    z-index: 1000;
     transition: background-color 0.2s ease;
     width:100%; 
     font-size: 15px;
+    z-index: 1;
 }
 
 .mobileMenuOpenButton {
@@ -101,20 +99,20 @@ ul {
 }
 
 #navbarMain.scrolled {
-  
   background-color: #445e13;
-  box-shadow: 0px 4px 7px #777;
 } 
-
 
 #navbarMain li {
     padding: 35px 10px;
 }
 
-#navbarMain li a {
+.navbar li a, #navbarMain li a {
     padding: 0px 20px;
+    float: left;
     display: block;
-    color: #000000
+    color: #000000;
+    text-align: center;
+    z-index: 2;
 }
 
 #navbarMain li a:hover {
@@ -427,3 +425,55 @@ footer {
     }
 }
 
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  float: right;
+  z-index: 2000;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 34px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.dropdown:hover .dropbtn {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px;
+  width: 293px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #d0f7cf;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: contents;
+  text-align: left;
+  z-index: 2;
+}
