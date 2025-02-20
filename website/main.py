@@ -15,6 +15,14 @@ def about():
 def programs():
     return render_template("programs.html")
 
+@app.route('/community-dspptwg')
+def members_dspptwg():
+    return render_template("members-dspptwg.html")
+
+@app.route('/community-trp')
+def members_trp():
+    return render_template("members-trp.html")
+
 @app.route('/community')
 def members():
     return render_template("members.html")

@@ -81,7 +81,7 @@ ul {
     transition: background-color 0.2s ease;
     width:100%; 
     font-size: 15px;
-    z-index: 1;
+    z-index: 1;  
 }
 
 .mobileMenuOpenButton {
@@ -98,9 +98,6 @@ ul {
     display: none;
 }
 
-#navbarMain.scrolled {
-  background-color: #445e13;
-} 
 
 #navbarMain li {
     padding: 35px 10px;
@@ -455,6 +452,10 @@ footer {
   z-index: 1;
 }
 
+#navbarMain.scrolled .dropdown {
+  z-index: 10;
+}
+
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
@@ -464,6 +465,7 @@ footer {
   text-decoration: none;
   display: block;
   text-align: left;
+  z-index: 10;
 }
 
 /* Add a grey background color to dropdown links on hover */

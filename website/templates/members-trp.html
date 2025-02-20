@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='members.css') }}">
+{% endblock %}
+
+{% block title %} 
+CIDS DSPPP - Members
+{% endblock %}
+
+{% block content %}
+
+<h2>Data Science Community</h2>
+
+<h4>Training Resource Persons</h4>
+<div class="cards">
+  <div class="card">
+    <img src="../static/trp_jonathanmamplata.png" alt="Avatar">
+    <div class="info">
+      <p id="info-primary">Jonathan B. Mamplata</p>
+      <p id="info-secondary">Assistant Professor 7, Institute of Mathematical Sciences and Physics,	College of Arts and Sciences,	University of the Philippines Los Baños</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../static/trp_fmendoza.png" alt="Avatar">
+    <div class="info">
+      <p id="info-primary">Maria Fe V. Mendoza</p>
+      <p id="info-secondary">Professor Emeritus, National College of Public Administration and Governance, University of the Philippines Diliman</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../static/trp_jsumbing.png" alt="Avatar">
+    <div class="info">
+      <p id="info-primary">Joemel G. Sumbing</p>
+      <p id="info-secondary">Assistant Professor, School of Technology,	University of the Philippines Visayas</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../static/mem_rickynellas.png" alt="Avatar">
+    <div class="info">
+      <p id="info-primary">Rosanne Nicollette M. Eleazar</p>
+      <p id="info-secondary">Assistant Professor, Department of Hotel, Restaurant, and Institutional Management, College of Home Economics,	University of the Philippines Diliman</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../static/mem_rickynellas.png" alt="Avatar">
+    <div class="info">
+      <p id="info-primary">Dan Anthony D. Dorado</p>
+      <p id="info-secondary">Assistant Professor IV, School of Library and Information Studies, University of the Philippines Diliman</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../static/mem_rickynellas.png" alt="Avatar">
+    <div class="info">
+      <p id="info-primary">Rosella M. Torrecampo</p>
+      <p id="info-secondary">Professor, Department of English and Comparative Literature, College of Arts and Letters, University of the Philippines Diliman</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block script %} 
+<script src="members.js"></script>
+{% endblock %}
