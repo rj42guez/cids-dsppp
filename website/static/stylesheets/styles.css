@@ -6,9 +6,9 @@ body {
 
 @font-face {
     font-family: font1;
-    src:    url(./fonts/BowlbyOneSC-Regular.otf),
-            url(./fonts/BowlbyOneSC-Regular.ttf),
-            url(./fonts/BowlbyOneSC-Regular.woff);
+    src:    url(../fonts/BowlbyOneSC-Regular.otf),
+            url(../fonts/BowlbyOneSC-Regular.ttf),
+            url(../fonts/BowlbyOneSC-Regular.woff);
   }
 
 h1 {
@@ -67,21 +67,118 @@ h5 {
 ul {
     list-style-type: none;
     margin: 0;
-    font-family: Montserrat;
+    font-family: 'Verdana';
     font-weight: 900;
     top: 0;
     width: 100%;   
   }
 
+/* Navbar styling */
 #navbarMain {
-    overflow: hidden;
-    top: 0;
-    padding: 0px 80px;
-    position: fixed;
-    transition: background-color 0.2s ease;
-    width:100%; 
-    font-size: 15px;
-    z-index: 1;  
+    background-color: #4CAF50; /* Green background */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 0;
+    height: 90px; /* Set a fixed height for the navbar */
+    width: 100%; /* Full width of the screen */
+}
+
+.navbar-collapse {
+    width: 100%; /* Full width of the screen */
+    height: 100%; /* Full height of the navbar */
+    display: flex; /* Ensure flexbox alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-nav {
+    height: 100%; /* Full height of the navbar */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-evenly; /* Equal spacing between items */
+    width: 100%; /* Full width of the parent */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    flex: 1; /* Each list item takes up equal width */
+    text-align: center; /* Center text inside each item */
+    height: 100%; /* Full height of the parent */
+}
+
+.navbar-nav li a {
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    height: 100%; /* Full height of the parent */
+    width: 100%; /* Full width of the parent */
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.nav-item {
+    height: 100%; /* Full height of the navbar */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-link {
+    height: 100%; /* Full height of the navbar */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    padding: 0 15px; /* Add horizontal padding */
+    text-decoration: none;
+    color: #ffffff; /* White text color */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Dropdown styling */
+.nav-item.dropdown {
+    position: relative;
+}
+
+.nav-item.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the navbar */
+    left: 0;
+    background-color: #4CAF50; /* Match navbar background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-item.dropdown .dropdown-content li a {
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-item.dropdown .dropdown-content li a:hover {
+    background-color: #45a049;
 }
 
 .mobileMenuOpenButton {
@@ -97,30 +194,6 @@ ul {
     font-family: font1;
     display: none;
 }
-
-
-#navbarMain li {
-    padding: 35px 10px;
-}
-
-.navbar li a, #navbarMain li a {
-    padding: 0px 20px;
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    z-index: 2;
-}
-
-#navbarMain li a:hover {
-    color: #000000;
-    background-color: #ffffff;
-  }
-  
-  
-#navbarMain li a:active {
-    color: white;
-  }
 
 footer {
     background-color: aquamarine;
@@ -430,7 +503,7 @@ footer {
   font-size: 16px;
   border: none;
   outline: none;
-  color: rgb(0, 0, 0);
+  color: #ffffff(0, 0, 0);
   padding: 34px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -439,7 +512,7 @@ footer {
 
 /* Add a red background color to navbar links on hover */
 .dropdown:hover .dropbtn {
-  background-color: rgb(255, 255, 255);
+  background-color: #45a049;
 }
 
 /* Dropdown content (hidden by default) */
