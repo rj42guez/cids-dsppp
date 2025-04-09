@@ -6,9 +6,9 @@ body {
 
 @font-face {
     font-family: font1;
-    src:    url(./fonts/BowlbyOneSC-Regular.otf),
-            url(./fonts/BowlbyOneSC-Regular.ttf),
-            url(./fonts/BowlbyOneSC-Regular.woff);
+    src:    url(../fonts/BowlbyOneSC-Regular.otf),
+            url(../fonts/BowlbyOneSC-Regular.ttf),
+            url(../fonts/BowlbyOneSC-Regular.woff);
   }
 
 h1 {
