@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block head %}
-      <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/chat-with-us.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/chatbot.css') }}">
 {% endblock %}
 
 {% block title %} 
@@ -10,5 +10,22 @@
 
 {% block content %}
 <h2>Chat With Us</h2>
+<div id="chatbot-icon">💬</div>
+    <!-- Chatbot Container -->
+    <div id="chatbot-container" class="hidden">
+      <div id="chatbot-header">
+        <span>Chatbot</span>
+        <button id="close-btn">&times;</button>
+      </div>
+      <div id="chatbot-body">
+        <div id="chatbot-messages"></div>
+      </div>
+      <div id="chatbot-input-container">
+        <input type="text" id="chatbot-input" placeholder="Type a message..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+
+    <script src="chatbot.js"></script>
 
 {% endblock %}
