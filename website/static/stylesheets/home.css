@@ -1,6 +1,6 @@
 body {
     background-image: url('/static/_DSC6327.JPG');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative; /* Ensure the pseudo-element is positioned relative to the body */
     z-index: 0; /* Default stacking context for the background */
