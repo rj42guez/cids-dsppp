@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block head %}
-      <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/about.css') }}">
+      <link rel="stylesheet" href="/static/stylesheets/about.css">
 {% endblock %}
 
 {% block title %} 
@@ -43,7 +43,7 @@ interdisciplinary problem-oriented research using high-level quantitative analys
 Finally, it strives to convene multidisciplinary teams of social scientists, humanists, and scientists to research
 issues in the public sector.
 </p>
-<img src="{{ url_for('static', filename='objectiveTree.png') }}" id="objtree" alt="objectives" title="objectives"/>
+<img src="/static/objectiveTree.png" id="objtree" alt="objectives" title="objectives"/>
 <br>
 
 {% endblock %}
