@@ -1,9 +1,14 @@
 {
-    "functions": {
-        "api/index.py": {
-            "excludeFiles": "public/**"
+    "builds":[
+        {
+            "src": "website/main.py", 
+            "use": "@vercel/python"
+        },
+        {
+            "src": "public/**",
+            "use": "@vercel/static"
         }
-    },
+    ],
     "routes":[
         {
             "src": "/(.+\\.[a-z]+)$",
@@ -11,7 +16,7 @@
         },
         {
             "src": "/(.*)", 
-            "dest": "/api/index.py"
+            "dest": "website/main.py"
         }
         
     ]
