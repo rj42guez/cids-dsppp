@@ -3,16 +3,16 @@
         {
             "src": "website/main.py", 
             "use": "@vercel/python"
+        },
+        {
+            "src": "public/**",
+            "use": "@vercel/static"
         }
     ],
     "routes":[
         {
-            "src": "/static/(.*)",
-            "dest": "/static/$1"
-        },
-        {
-            "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
-            "dest": "/$1"
+            "src": "/(.+\\.[a-z]+)$",
+            "dest": "/public/$1"
         },
         {
             "src": "/(.*)", 
