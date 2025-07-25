@@ -19,5 +19,10 @@
             "dest": "website/main.py"
         }
         
-    ]
+    ],
+    "functions": {
+        "website/main.py": {
+            "excludeFiles": "public/**"
+        }
+    }
 }
