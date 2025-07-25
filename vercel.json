@@ -1,14 +1,10 @@
 {
-    "builds":[
-        {
-            "src": "website/main.py", 
-            "use": "@vercel/python"
-        },
-        {
-            "src": "public/**",
-            "use": "@vercel/static"
+    "functions": {
+        "api/index.py": {
+            "runtime": "@vercel/python",
+            "excludeFiles": "public/**"
         }
-    ],
+    },
     "routes":[
         {
             "src": "/(.+\\.[a-z]+)$",
@@ -16,7 +12,7 @@
         },
         {
             "src": "/(.*)", 
-            "dest": "website/main.py"
+            "dest": "/api/index.py"
         }
         
     ]
