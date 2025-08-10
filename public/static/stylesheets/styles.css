@@ -1,0 +1,562 @@
+body {
+    background-color: #a3c368;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+@font-face {
+    font-family: font1;
+    src:    url(../fonts/BowlbyOneSC-Regular.otf),
+            url(../fonts/BowlbyOneSC-Regular.ttf),
+            url(../fonts/BowlbyOneSC-Regular.woff);
+  }
+
+h1 {
+    font-family: font1;
+    text-align: center;
+    background: -webkit-linear-gradient(#D5E4BB, #ffffff);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+    font-size: 100px;
+}
+
+p {
+    padding: 0px 60px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.PageMainContents{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: auto;
+}
+
+
+
+h2 {
+    font-family: font1;
+    text-align: center;
+    background: -webkit-linear-gradient(#D5E4BB, #ffffff);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    padding: 0px 60px;
+}
+
+h4 {
+    font-family: 'Verdana';
+    padding-left: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 50px;
+    font-size: 25px;
+}
+
+h5 {
+  font-family: 'Verdana';
+  padding-left: 80px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 50px;
+  font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Verdana';
+    font-weight: 900;
+    top: 0;
+    width: 100%;   
+  }
+
+/* Navbar styling */
+#navbarMain {
+    background-color: #4CAF50; /* Green background */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 0;
+    height: 90px; /* Set a fixed height for the navbar */
+    width: 100%; /* Full width of the screen */
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0; /* Align it to the top of the page */
+    z-index: 9999; /* Ensure it's above all other elements */
+}
+
+.navbar-collapse {
+    width: 100%; /* Full width of the screen */
+    height: 100%; /* Full height of the navbar */
+    display: flex; /* Ensure flexbox alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-nav {
+    height: 100%; /* Full height of the navbar */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-evenly; /* Equal spacing between items */
+    width: 100%; /* Full width of the parent */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    flex: 1; /* Each list item takes up equal width */
+    text-align: center; /* Center text inside each item */
+    height: 100%; /* Full height of the parent */
+}
+
+.navbar-nav li a {
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    height: 100%; /* Full height of the parent */
+    width: 100%; /* Full width of the parent */
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.nav-item {
+    height: 100%; /* Full height of the navbar */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-link {
+    height: 100%; /* Full height of the navbar */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    padding: 0 15px; /* Add horizontal padding */
+    text-decoration: none;
+    color: #ffffff; /* White text color */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Dropdown styling */
+.nav-item.dropdown {
+    position: relative;
+}
+
+.nav-item.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the navbar */
+    left: 0;
+    background-color: #4CAF50; /* Match navbar background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-item.dropdown .dropdown-content li a {
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-item.dropdown .dropdown-content li a:hover {
+    background-color: #45a049;
+}
+
+.mobileMenuOpenButton {
+    display: none;
+}
+
+#overlay content{
+    font-family: font1;
+    display: none;
+}
+
+#mobileMenu {
+    font-family: font1;
+    display: none;
+}
+
+footer {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 11px;
+    width: 100%;
+    position: relative;
+    height:auto;
+    bottom: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .slideshow-container {
+    max-width: 30%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+@media screen and (max-width: 1000px)
+{
+    
+    footer {
+        font-size: 9px;
+    }
+
+    #icon {
+        size: 100px;
+    }
+
+    .mobileMenuOpenButton {
+        display: block;
+        padding-left: 13px;
+    }
+
+    #mobileMenu {
+        display: block;
+    }
+    
+    h1 {
+        font-family: font1;
+        text-align: center;
+        background: -webkit-linear-gradient(#D5E4BB, #ffffff);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    .PageMainContents{
+        padding-top: 10px;
+    }
+
+    span {
+        display: inline-block;
+        width: 50px;
+      }
+
+    #navbarMain  {
+        display: none;
+       }
+
+    .overlay {
+        font-family: font1;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 2;
+        left: 0;
+        top: 0;
+        background-color: rgb(6, 29, 2);
+        background-color: rgba(6, 29, 2, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        line-break: strict;
+      }
+      
+    #mobileMenuContents {
+        font-family: font1;
+        position: relative;
+        top: 35;
+        display: inline;
+        width: auto;
+        text-align: center;
+        padding-top: 50px;
+        transition: 0.3s;
+        font-size: 10px;
+      }
+      
+    .overlay a {
+        
+        font-family: font1;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+      }
+      
+    .overlay a:hover, .overlay a:focus {
+        color: #a2d65e;
+      }
+    
+    #mobileMenuCloseButton {
+        font-family: font1;
+        position: absolute;
+        padding-top: 0px;
+        z-index: 1;
+        top: 0px;
+        right: 25px;
+        font-size: 40px;
+    }
+   
+}
+    
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+}
+
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  float: right;
+  z-index: 2000;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #ffffff(0, 0, 0);
+  padding: 34px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.dropdown:hover .dropbtn {
+  background-color: #45a049;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#navbarMain.scrolled .dropdown {
+  z-index: 10;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px;
+  width: 293px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  z-index: 10;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #d0f7cf;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: contents;
+  text-align: left;
+  z-index: 2;
+}
+
+
