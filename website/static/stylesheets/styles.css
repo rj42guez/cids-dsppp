@@ -75,7 +75,7 @@ ul {
 
 /* Navbar styling */
 #navbarMain {
-    background-color: #4CAF50; /* Green background */
+    background-color: #8bad4f; /* Green background */
     display: flex;
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
@@ -118,13 +118,13 @@ ul {
     width: 100%; /* Full width of the parent */
     color: #ffffff; /* White text color */
     text-decoration: none;
-    font-size: 16px;
+    font-size: 11px;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
 .navbar-nav li a:hover {
-    background-color: #45a049; /* Slightly darker green on hover */
+    background-color: #78aa32; /* Slightly darker green on hover */
 }
 
 .nav-item {
@@ -141,13 +141,13 @@ ul {
     padding: 0 15px; /* Add horizontal padding */
     text-decoration: none;
     color: #ffffff; /* White text color */
-    font-size: 16px;
+    font-size: 11px;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
 .nav-link:hover {
-    background-color: #45a049; /* Slightly darker green on hover */
+    background-color: #78aa32; /* Slightly darker green on hover */
 }
 
 /* Dropdown styling */
@@ -160,7 +160,7 @@ ul {
     position: absolute;
     top: 100%; /* Position below the navbar */
     left: 0;
-    background-color: #4CAF50; /* Match navbar background */
+    background-color: #6b9358; /* Match navbar background */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     list-style: none;
@@ -181,7 +181,7 @@ ul {
 }
 
 .nav-item.dropdown .dropdown-content li a:hover {
-    background-color: #45a049;
+    background-color: #bcd5b4;
 }
 
 .mobileMenuOpenButton {
