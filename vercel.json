@@ -13,3 +13,11 @@
         
     ]
 }
+
+{
+    "src": "api/detect.py",
+    "use": "@vercel/python",
+    "config": {
+      "maxLambdaSize": "2000mb"
+    }
+}
