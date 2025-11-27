@@ -178,6 +178,7 @@ ul {
     color: #ffffff;
     text-decoration: none;
     display: block;
+
 }
 
 .nav-item.dropdown .dropdown-content li a:hover {
@@ -503,7 +504,7 @@ footer {
 .dropdown .dropbtn {
   float: right;
   z-index: 2000;
-  font-size: 16px;
+  font-size: 11px;
   border: none;
   outline: none;
   color: #ffffff(0, 0, 0);
