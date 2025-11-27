@@ -23,10 +23,6 @@ def members_dspptwg():
 def members_trp():
     return render_template("members-trp.html")
 
-@app.route('/community')
-def members():
-    return render_template("members.html")
-
 @app.route('/research-corner')
 def publicpolicypresentations():
     return render_template("public-policy-presentations.html")
