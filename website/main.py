@@ -11,9 +11,13 @@ def home():
 def about():
     return render_template("about.html")
 
-@app.route('/events')
-def programs():
-    return render_template("programs.html")
+@app.route('/events-2024')
+def programs_2024():
+    return render_template("programs-2024.html")
+
+@app.route('/events-2025')
+def programs_2025():
+    return render_template("programs-2025.html")
 
 @app.route('/community-dspptwg')
 def members_dspptwg():
