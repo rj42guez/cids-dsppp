@@ -7,6 +7,7 @@ p {
     color: #ffffff;
 }
 
+
 .obj {
     padding-left: 80;
 }
@@ -17,4 +18,83 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .cards {
+      /* Add shadows to create the "card" effect */
+      align-self: center;
+      display: flex;
+      padding-bottom: 20px;
+      padding-left: 8.5%;
+      padding-right: 4%;
+    }
+    
+    .cards > .card {
+      background-color:#D5E4BB;
+      padding: 10px;
+      width: 300px;
+      margin-right: 2px;
+      margin-left: 2px;
+      margin-top: 10px;
+    }
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    /* Add some padding inside the card container */
+    .info > p {
+      padding: 0px 0px;
+      font-size: 15px;
+      word-spacing: normal;
+      margin: 0;
+    }
+
+    #info-primary {
+      font-style: oblique;
+      text-align: center;
+      color: #000000;
+    }
+  
+    #info-secondary {
+      font-size: 11px;
+      font-style: italic;
+      text-align: center;
+      color: #000000;
+    }
+
+  @media screen and (max-width: 1000px) {
+    
+    .cards > .card {
+      margin: 3px auto;
+      width: 110px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    h4 {
+      text-align: center;
+    }
+
+    #info-primary {
+      font-style: oblique;
+      font-size: 10px;
+    }
+  
+    #info-secondary {
+      font-size: 8px;
+      font-style: italic;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
 }

@@ -6,6 +6,19 @@ body {
     z-index: 0; /* Default stacking context for the background */
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+
+h4 {
+    font-size: 14px;
+}
+
 body::before {
     content: '';
     position: absolute;
