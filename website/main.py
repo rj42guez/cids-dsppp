@@ -35,9 +35,9 @@ def publicpolicypresentations():
 def videos():
     return render_template("videos.html")
 
-@app.route('/chat-with-us')
+@app.route('/contact-us')
 def contact():
-    return render_template("chat-with-us.html")
+    return render_template("contact-us.html")
 
 if __name__ == '__main__':
     app.run(debug=True)
