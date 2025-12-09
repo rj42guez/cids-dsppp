@@ -118,7 +118,7 @@ ul {
     width: 100%; /* Full width of the parent */
     color: #ffffff; /* White text color */
     text-decoration: none;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
@@ -141,7 +141,7 @@ ul {
     padding: 0 15px; /* Add horizontal padding */
     text-decoration: none;
     color: #ffffff; /* White text color */
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
@@ -153,6 +153,7 @@ ul {
 /* Dropdown styling */
 .nav-item.dropdown {
     position: relative;
+    font-size: 10px;
 }
 
 .nav-item.dropdown .dropdown-content {
@@ -163,6 +164,7 @@ ul {
     background-color: #6b9358; /* Match navbar background */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1000;
+    font-size: 10px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -504,7 +506,7 @@ footer {
 .dropdown .dropbtn {
   float: right;
   z-index: 2000;
-  font-size: 11px;
+  font-size: 10px;
   border: none;
   outline: none;
   color: #ffffff(0, 0, 0);
